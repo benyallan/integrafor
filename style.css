@@ -1,12 +1,98 @@
 h1 {
-    color: cadetblue;
+    color: #0B1E34;
     text-align: center;
 }
 
 h2 {
-    color: blue;
+    color: #0B1E34;
 }
 
 #logo {
-    height: 50px;
+    width: 800px;
 }
+
+body {
+    background-color: #CCCCCC;
+}
+
+#main {
+    margin: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px; /* Ajuste conforme necessário */
+}
+
+.form-div {
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    width: 100%; /* Faz com que os labels ocupem todo o espaço horizontal dentro das divs */
+}
+
+button {
+    padding: 8px 15px;
+    color: #CCCCCC;
+    background-color: #0B1E34;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4BA3C7;
+}
+
+input[type="text"],
+input[type="datetime"] {
+    width: 100%; /* Faz com que os inputs ocupem todo o espaço horizontal dentro das divs */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+nav {
+    text-align: center; /* Centraliza os itens de navegação */
+    /* position: fixed;
+    /* top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #CCCCCC; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* 
+Azul Escuro (#0B1E34)
+Azul Claro (#4BA3C7)
+Branco (#FFFFFF)
+Cinza (#CCCCCC)
+Verde Limão (#C6E48B)
+*/
