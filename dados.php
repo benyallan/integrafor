@@ -1,6 +1,6 @@
 <?php
 // Conexão com o banco de dados
-$db = new SQLite3('dados.db');
+$db = new SQLite3('dados.sqlite');
 
 // Verifica se a conexão foi estabelecida com sucesso
 if(!$db) {
